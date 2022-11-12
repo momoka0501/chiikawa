@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W4MQTWZ');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="thumbnail" content="https://www.anime-chiikawa.jp/images/ogp.jpg" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/icon.png">
+  <link rel="apple-touch-icon-precomposed" href="images/icon.png">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- TODO:OGP -->
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:title" content="ちいかわ" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.anime-chiikawa.jp/" />
+  <meta property="og:image" content="https://www.anime-chiikawa.jp/images/ogp.jpg" />
+  <meta property="og:site_name" content="ちいかわ" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:description" content="ちいかわ - オフィシャルサイト" />
+  <meta name="description" content="ちいかわ - オフィシャルサイト" />
+  <meta name="Keywords" content="ちいかわ,アニメ,フジテレビ" />
+  <title>ちいかわ</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="//www.youtube.com/iframe_api"></script>
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'vyp4dsl',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+<body ontouchstart="">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4MQTWZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="app" class="wraper" v-cloak>
+    <!-- ページローディング -->
+    <loading></loading>
+    <!-- ヘッダーメニュー -->
+    <header-menu></header-menu>
+    <!-- スクロールトップ -->
+    <scroll-top></scroll-top>
+    <!-- キービジュアル -->
+    <div class="kv_wrap">
+      <div class="kv_bt_wrap">
+        <div class="kv_bt_01">
+          <a href="https://twitter.com/anime_chiikawa?s=21" target="_blank">
+            <img src="images/bt_kv_01.png" alt="アニメ公式Twitter">
+          </a>
+        </div>
+        <!-- スライダー用YOUTUBE -->
+        <main-youtube></main-youtube>
+      </div>
+      <!-- スライドコンテンツ -->
+      <slide-content></slide-content>
+    </div>
+    <div id="main" class="contents_wrap">
+      <div class="tree_left_01 pc"></div>
+      <div class="tree_left_02 pc"></div>
+      <div class="tree_left_03 pc"></div>
+      <div class="tree_left_04 pc"></div>
+      <div id="pc-hyokkori-hachiware" class="bg_chara_hachi pc"></div>
+      <div class="ie_02 pc"></div>
+      <div class="bg_chara_hachi2 pc"></div>
+      <div class="bg_chara_chiikawa pc"></div>
+      <div class="bg_chara_chiikawa2 pc animation-jump-chiikawa"></div>
+      <div class="bg_chara_chiikawa2_dash pc animation-jump-chiikawa-dash"></div>
+      <div class="bg_chara_yoroi pc"></div>
+      <div class="tree_right_01 pc"></div>
+      <div id="pc-hyokkori-chiikawa" class="bg_chara_chiikawa3 pc"></div>
+      <div class="bg_chara_usagi pc animation-jump-usagi"></div>
+      <div class="bg_chara_usagi_dash pc animation-jump-usagi-dash"></div>
+      <div class="bg_chara_momo pc animation-glider-momonga"></div>
+      <div class="bg_chara_oishii pc animation-float"></div>
+      <div class="bg_chara_usagi2 pc animation-shake"></div>
+      <div class="bg_chara_kuri pc"></div>
+      <div class="bg_chara_hachi3 pc animation-escape-hachiware"></div>
+      <div class="tree_sp_left_01 sp"></div>
+      <div class="tree_sp_left_02 sp"></div>
+      <div id="sp-hyokkori-hachiware" class="bg_sp_chara_hachi sp"></div>
+      <div class="bg_sp_chara_hachi2 sp"></div>
+      <div class="bg_sp_chara_chiikawa sp"></div>
+      <div class="bg_sp_chara_kuri sp"></div>
+      <div class="bg_sp_chara_chiikawa2 sp animation-jump-chiikawa"></div>
+      <div class="bg_sp_chara_chiikawa2_dash sp animation-jump-chiikawa-dash"></div>
+      <div class="bg_sp_chara_yoroi sp"></div>
+      <div class="tree_sp_right_01 sp"></div>
+      <div class="tree_sp_right_02 sp"></div>
+      <div id="sp-hyokkori-chiikawa" class="bg_sp_chara_chiikawa3 sp"></div>
+      <div class="bg_sp_chara_usagi sp animation-jump-usagi"></div>
+      <div class="bg_sp_chara_usagi_dash sp animation-jump-usagi-dash"></div>
+      <div class="bg_sp_chara_momo sp animation-glider-momonga"></div>
+      <div class="bg_sp_chara_oishii sp animation-float"></div>
+      <div class="bg_sp_chara_usagi2 sp animation-shake"></div>
+      <div class="bg_sp_chara_hachi3 sp animation-escape-hachiware"></div>
+      <!-- YOUTUBE -->
+      <span id="youtube"></span>
+      <div id="youtube-content" class="youtube_wrap wrap fade-down">
+        <h2>
+          <p>
+            <img src="images/img_h2_01.png" alt="YouTube">
+          </p>
+        </h2>
+        <youtube-content></youtube-content>
+      </div>
+      <!-- おしらせ -->
+      <span id="info"></span>
+      <div class="info_wrap2">
+        <div class="info_wrap wrap">
+          <div id="info-content" class="fade-down">
+            <h2>
+              <p>
+                <img src="images/img_h2_02.png" alt="おしらせ">
+              </p>
+            </h2>
+            <info-content></info-content>
+          </div>
+        </div>
+      </div>
+      <!-- イントロダクション -->
+      <span id="intro"></span>
+      <div id="intro-content" class="intro_wrap wrap fade-down">
+        <h2>
+          <p>
+            <img src="images/img_h2_03.png" alt="イントロダクション">
+          </p>
+        </h2>
+        <div class="intro_text">
+		  【なんか小さくてかわいいやつ】通称「ちいかわ」たちが送る楽しくて、ちょっぴり切ない物語。時には辛いことで泣いちゃうけれど「ちいかわ」の周りにはやさしい友達や個性豊かなキャラクターがたくさん！イラストレーター・ナガノによる大人気マンガ「ちいかわ」のアニメが始まります！
+		 </div>
+      </div>
+      <!-- おはなし -->
+      <span id="epi"></span>
+      <div id="epi-content" class="epi_wrap wrap fade-down">
+        <h2>
+          <p>
+            <img src="images/img_h2_04.png" alt="おはなし">
+          </p>
+        </h2>
+        <episode-content></episode-content>
+      </div>
+      <!--キャラクター-->
+      <span id="chara"></span>
+      <div class="chara_wrap wrap">
+        <h2>
+          <p>
+            <img src="images/img_h2_05.png" alt="キャラクター">
+          </p>
+        </h2>
+        <chara-content></chara-content>
+        <p class="btn_more">
+          <a href="chara.html">すべてみる</a>
+        </p>
+      </div>
+      <!-- スタッフ＆キャスト -->
+      <span id="staff"></span>
+      <div id="staff-content" class="staff_wrap wrap fade-down">
+        <h2>
+          <p>
+            <img src="images/img_h2_06.png" alt="スタッフ＆キャスト">
+          </p>
+        </h2>
+        <ul class="staff_list">
+          <li>原作：ナガノ「ちいかわ」</li>
+          <li>シリーズディレクター：三原武憲</li>
+          <li>セットアップデザイン：朝倉夕貴</li>
+          <li>色彩設計：石黒けい</li>
+          <li>撮影監督：金子直広（三晃プロダクション）</li>
+          <li>音響監督：土屋雅紀</li>
+          <li>音楽：トクマルシューゴ</li>
+          <li>編集：茶谷真悟</li>
+          <li>アニメーション制作：動画工房</li>
+        </ul>
+        <ul class="staff_list">
+          <li>ちいかわ：青木 遥</li>
+          <li>ハチワレ：田中誠人</li>
+          <li>うさぎ：小澤亜李</li>
+          <li>モモンガ：井口裕香</li>
+          <li>ポシェットの鎧さん：杉田智和</li>
+          <li>労働の鎧さん：東地宏樹</li>
+          <li>ラーメンの鎧さん：松岡禎丞</li>
+          <li>ラッコ：内田雄馬</li>
+          <li>くりまんじゅう：淺井孝行　ほか</li>
+        </ul>
+        <ul class="cast_list">
+          <li>【エンディングテーマ】</li>
+          <li>「ひとりごつ」</li>
+          <li>歌：ハチワレ（CV.田中誠人）</li>
+          <li>作詞：ナガノ</li>
+          <li>作曲：トクマルシューゴ</li>
+          <li>編曲：トクマルシューゴ</li>
+        </ul>
+      </div>
+      <!-- アニメ情報 -->
+      <span id="animeinfo"></span>
+      <div class="animeinfo_wrap2">
+        <div class="animeinfo_wrap wrap">
+          <div id="animeinfo-content" class="fade-down">
+            <h2>
+              <p>
+                <img src="images/img_h2_07.png" alt="アニメ情報">
+              </p>
+            </h2>
+            <div class="anime_tv">
+              <h3>TV</h3>
+              <div class="box">
+                2022年4月4日スタート フジテレビ系列「めざましテレビ」内にて午前7時40ごろより放送
+              </div>
+            </div>
+            <div class="anime_deli">
+              <h3>無料配信</h3>
+              <div class="box">
+                放送後(8:00〜)に1週間限定見逃し配信 YouTube TVer GYAO! FOD
+              </div>
+            </div>
+            <p class="btn_more">
+              <a href="animeinfo.html">すべてみる</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- グッズ -->
+      <span id="goods"></span>
+      <div id="goods-content" class="goods_wrap wrap fade-down">
+        <h2>
+          <p>
+            <img src="images/img_h2_08.png" alt="グッズ">
+          </p>
+        </h2>
+        <ul class="goods_bnr_list">
+          <li>
+            <a href="https://chiikawa-info.jp/" target="_blank">
+              <img src="images/bn_goods_01.png" alt="ちいかわインフォ">
+            </a>
+          </li>
+          <li>
+            <a href="https://chiikawamarket.jp/" target="_blank">
+              <img src="images/bn_goods_02.png" alt="ちいかわマーケット">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- BD＆DVD -->
+      <span id="dvd"></span>
+      <div id="dvd-content" class="dvd_wrap wrap fade-down">
+        <h2>
+          <p>
+            <img src="images/img_h2_09.png" alt="BD&DVD">
+          </p>
+        </h2>
+        <dvd-content></dvd-content>
+      </div>
+      <!-- ツイッター＆リンク -->
+      <div id="tw-content" class="tw_wrap fade-down">
+        <div class="twitter_wrap wrap">
+          <div class="twitter-timeline-wrapper pc">
+            <a class="twitter-timeline" data-height="460" data-chrome="noheader nofooter transparent noscrollbar noborders" href="https://twitter.com/anime_chiikawa?ref_src=twsrc%5Etfw">Tweets by anime_chiikawa</a>
+          </div>
+          <div class="twitter-timeline-wrapper sp">
+            <a class="twitter-timeline" data-height="210" data-chrome="noheader nofooter transparent noscrollbar noborders" href="https://twitter.com/anime_chiikawa?ref_src=twsrc%5Etfw">Tweets by anime_chiikawa</a>
+          </div>
+        </div>
+        <div class="meza_bnr_wrap">
+          <p class="meza_bnr_01">
+            <a href="https://www.fujitv.co.jp/meza/index.html" target="_blank">
+              <img src="images/bn_meza_01.png" alt="めざましテレビ公式サイト">
+            </a>
+          </p>
+          <p class="meza_bnr_02">
+            <a href="https://www.youtube.com/channel/UCrrsHarrLoiLTqu1LHxDJpw" target="_blank">
+              <img src="images/bn_meza_02.png" alt="めざましテレビ公式YouTubeチャンネル">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- フッター -->
+    <footer-menu></footer-menu>
+    <!-- おしらせモーダル -->
+    <info-modal></info-modal>
+    <!-- 動画モーダル -->
+    <video-modal></video-modal>
+    <!-- BD/DVDモーダル -->
+    <dvd-modal></dvd-modal>
+  </div>
+  <script src="./js/main.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,458 @@
+@charset "UTF-8"
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+    text-align: center;
+    background-image: url(kusa.jpg);
+    min-height: 100vh;
+}
+
+body p {
+    text-align: center;
+}
+
+
+.gazou {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+}
+
+h2 {
+    font-size: 1.7rem;
+    padding-top:10%: 
+    font-weight: normal;
+
+}
+
+h3 {
+    margin-top: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul-oya {
+    text-align: center;
+}
+.sentaku {
+    font-size: 1.5rem;
+}
+
+ul{
+    text-align: left;
+    display: inline-block
+}
+
+img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 210px;
+    margin-top: 14px;
+}
+
+.main-nav {
+    display: flex;
+    color: lightcoral;
+    font-size: 3.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+    
+    font-family: "メイリオ","MS Pゴシック","Kokoro";
+
+}
+
+.main-nav li {
+    margin-left: 36px;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+.main-nav a:hover {
+    color: #0bd;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-content p {
+    font: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+.page-title {
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.button:hover {
+    background: #0090aa;
+}
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+
+#home {
+    background-image: url(かわ.jpg);
+    min-height: 100vh;
+
+    background-blend-mode: luminosity;
+}
+
+#home .page-title {
+    text-transform: none;
+}
+
+#news {
+    background-image: url(../images/news-bg.jpg);
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#news .page-title {
+    text-align: center;
+
+}
+
+footer {
+    background: #432;
+    text-align: center;
+    padding: 17px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+article {
+    width: 60%;
+    order: 2;
+}
+
+aside {
+    width: 22%;
+    order: 3;
+}
+
+.ad {
+    order: 1;
+}
+
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.post-info {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+.post-date {
+    background: #0bd;
+    border-radius: 50%;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+
+}
+
+.post-title {
+    font-family: "Yu Mincho", serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.post-title,
+.post-cat {
+    margin-left: 120px;
+}
+
+article img {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
+.sub-title {
+    font-size: 1.374rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+aside p {
+    padding: 12px 10px;
+}
+
+.sub-menu {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-menu li {
+    border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a {
+    list-style-position: outside;
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.sub-menu a:hover {
+    color: #0bd;
+}
+
+#menu {
+    background-image: url(../images/menu-bg.jpg);
+    min-height: 100vh;
+}
+
+.menu-content {
+    max-width: 560px;
+    margin-top: 10%;
+}
+
+.menu-content .page-title {
+    text-align: center;
+}
+
+.menu-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.big-box {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.big-box img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+
+    .main-nav {
+        font-size: lrem;
+        margin-top: 10px;
+    }
+
+    .main-nav li {
+        margin: 0 20px;
+    }
+
+    .home-content {
+        margin-top: 20%;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-contents {
+        flex-direction: column;
+    }
+
+    article,
+    aside {
+        width: 100%;
+    }
+
+    aside {
+        margin-top: 60px;
+    }
+
+    .post-info {
+        margin-bottom: 30px;
+    }
+
+    .post-date {
+        width: 70px;
+        height: 70px;
+        font-size: 1rem;
+    }
+
+    .post-date span {
+        font-size: 0.875rem;
+        padding-top: 2px;
+    }
+
+    .post-title {
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+
+    .post-title,
+    .post-cat {
+        margin-left: 80px;
+    }
+
+    .menu-content {
+        margin-top: 20%;
+    }
+
+    .big-box {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .big-box img {
+        height: auto;
+    }
+
+
+
+
+}
+
+#contact  {
+    background-image: url(../images/contact-bg.jpg);
+    min-height: 100vh;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255,255,255,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+#location {
+    padding: 4% 0;
+}
+
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info {
+    width:22%;
+}
+
+.location-info p {
+    padding: 12px 10px;
+}
+
+.location-map {
+    width:74%;
+}
+
+iframe {
+    width: 100%;
+}
+
+#sns {
+    background-color: #FAF7F0;
+    padding: 4% 0;
+}
+
+#sns .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sns .sub-title {
+    margin-bottom: 30px;
+}
+
+.sns-box {
+    width: 30%;
+}
