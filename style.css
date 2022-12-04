@@ -10,7 +10,9 @@ body {
     color: #432;
     text-align: center;
     background-image: url(kusa.jpg);
+    background-size: cover;
     min-height: 100vh;
+    background-attachment: fixed;
 }
 
 body p {
@@ -24,11 +26,24 @@ body p {
     height: 300px;
 }
 
-h2 {
-    font-size: 1.7rem;
-    padding-top:10%: 
-    font-weight: normal;
+#introduction {
+    font-size: 2rem;
+    color: lightcoral;
+    padding: 10%;
 
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: lightcoral;
+    padding: top 10%;
+    font-weight: bold;
+
+}
+
+.title {
+    
 }
 
 h3 {
@@ -59,20 +74,20 @@ img {
 }
 
 .logo {
-    width: 210px;
+    width: 110px;
     margin-top: 14px;
 }
 
 .main-nav {
     display: flex;
     color: lightcoral;
-    font-size: 3.25rem;
+    font-size: 1.25rem;
     font-weight: 900;
     text-transform: uppercase;
     margin-top: 34px;
     list-style: none;
     
-    font-family: "メイリオ","MS Pゴシック","Kokoro";
+    font-family: "メイリオ","MS Pゴシック",;
 
 }
 
@@ -81,11 +96,19 @@ img {
 }
 
 .main-nav a {
-    color: #432;
+    color: rgb(183, 127, 170);
 }
 
 .main-nav a:hover {
-    color: #0bd;
+    color: rgb(222, 26, 143);
+}
+
+.syoukai a {
+    color: rgb(183, 127, 170);
+}
+
+.syoukai a:hover {
+    color: rgb(222, 26, 143);
 }
 
 .page-header {
@@ -93,10 +116,28 @@ img {
     justify-content: space-between;
 }
 
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+    
+  }
+
 .wrapper {
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 4%;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.title {
+    padding-top: 10rem;
+   
 }
 
 .home-content {
@@ -144,12 +185,25 @@ img {
     text-transform: none;
 }
 
-#news {
-    background-image: url(../images/news-bg.jpg);
+#syoukai {
+    background-image: url(紹介.jpg);
+    background-size: 150px;
+    background-repeat: repeat;
     height: 300px;
+    width: auto;
     margin-bottom: 20px;
 }
 
+.bkRGBA{
+    /* 背景画像の透過用css */
+    height: 300px;
+    width: auto;
+    background: rgba(255, 255, 255, 0.78);
+  }
+
+.usagi {
+    margin-bottom: 50px;
+}
 #news .page-title {
     text-align: center;
 
@@ -165,6 +219,79 @@ footer p {
     color: #fff;
     font-size: 0.875rem;
 }
+
+
+#shitsumon p {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+  }
+  #shitsumon li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  #shitsumon li {
+    list-style: none;
+  }
+  /*ラジオボタンとテキストの間に余白を入れる*/
+  #shitsumon input[type="radio"] {
+    margin-right: 5px;
+  }
+  /*判定ボタンのデザイン*/
+  /*
+  .hantei {
+    color: rgb(183, 127, 170);
+    background: #c79c9c;
+    font-weight: bold;
+    border: none;
+    font-size: 50px;
+  }
+  */
+
+  .hantei {
+    text-align: center;
+  }
+
+  button {
+    border: #d7cccc;
+    border-radius: 10px;
+    background-color: #d7cccc;
+    color: rgb(220, 119, 164);
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+  }
+
+  button:hover {
+
+    border: #cda4a4;
+    
+    background-color: #cda4a4;
+    color: rgb(152, 70, 107);
+    
+
+  }
+
+
+
+  /*結果部分の空白調整*/
+  #kekka {
+    margin: 20px 0;
+    size: 1.7rem;
+  }
+  /*結果部分のデザイン*/
+  #kekka div {
+    background: rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.8rem;
+    border-radius: 20px 10px 80px 30px/40px 70px 30px 40px;
+  }
+
+
 
 article {
     width: 60%;
@@ -294,6 +421,8 @@ aside p {
     object-fit: cover;
 }
 
+
+
 @media (max-width: 600px) {
     .page-title {
         font-size: 2.5rem;
@@ -374,8 +503,12 @@ aside p {
 }
 
 #contact  {
-    background-image: url(../images/contact-bg.jpg);
-    min-height: 100vh;
+   
+    
+}
+
+.shitsumon_li li {
+    padding-top: 50px;
 }
 
 form div {

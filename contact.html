@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>ちいわか　-contact</title>
+    <meta name="description" content="contact">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="png" href="fovicon.png">
+
+
+</head>
+
+<body>
+    <div id="contact" class="big-bg">
+        <div class="bkRGBA">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"><img class="logo" src="pi-.jpg" alt="ちいかわフォーム"></a></h1>
+
+                <nav>
+
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="syoukai.html">紹介</a></li>
+                        <li><a href="contact.html">診断メーカー</a></li>
+                        <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+
+
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper">
+
+                <h2 class="title">診断メーカー</h2>
+              
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <form id="shitsumon" name="shitsumon" onsubmit="check(); return false;">
+        <ul class="shitsumon_li">
+            <li>
+                <p>友達からどう思われていることが多い？</p>
+                <label><input name="q0" type="radio" value="A" required="" />A.しっかりもの</label><br />
+                <label><input name="q0" type="radio" value="B" />B.なきむし</label><br />
+                <label><input name="q0" type="radio" value="C" />C.あたまおかしい</label>
+            </li>
+            <li>
+
+                <p>好きな食べ物は</p>
+                <label><input name="q1" type="radio" value="A" required="" />A.ラーメン</label><br />
+                <label><input name="q1" type="radio" value="B" />B.ゼリー</label><br />
+                <label><input name="q1" type="radio" value="C" />C.プリン</label><br />
+            </li>
+            <li>
+
+                <p>あなたは</p>
+                <label><input name="q2" type="radio" value="A" required="" />A.なにか資格を持っている</label><br />
+                <label><input name="q2" type="radio" value="B" />B.資格は持っていない</label><br />
+                <label><input name="q2" type="radio" value="C" />C.難易度の高い資格を持っている</label><br />
+            </li>
+            <li>
+                <p>この中で好きな色は</p>
+                <label><input name="q3" type="radio" value="A" required="" />A.水色</label><br />
+                <label><input name="q3" type="radio" value="B" />B.白</label><br />
+                <label><input name="q3" type="radio" value="C" />C.黄色</label><br />
+            </li>
+
+        </ul>
+        <button type="submit" class="hantei" >判定！</button>
+    </form>
+    <div id="kekka">ここに結果が出るよ！</div>
+
+   
+    <script src="js.js"></script>
+
+
+
+</body>
+
+<footer>
+    <p><small>&copy; 2022 Momoka</small></p>
+</footer>
+
+</html>
